@@ -70,9 +70,9 @@ auth:
   providers:
     keycloak:
       development:
-        metadataUrl: https://<KC_URL>/realms/<realm>/.well-known/openid-configuration
-        clientId: backstage
-        clientSecret: <client_secret>
+        metadataUrl: https://accounts.dev.tbs.cloudeka.xyz/realms/tets-backstage/.well-known/openid-configuration
+        clientId: reza
+        clientSecret: 0hNH1p1ISDrmynt8mwSsjAjzpN1yYJ0a
         prompt: auto       
 
 scaffolder:
